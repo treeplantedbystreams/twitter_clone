@@ -4,7 +4,7 @@ $(document).ready(function(){
     function postData() {
 		/*This function should create a post request using jquery. When posted it should:
 			1) Add tweets to the 'database'
-            
+            dfgfd
 			2) After posted prepend message to list of messages and clear input box */
 	}
 
