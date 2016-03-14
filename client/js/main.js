@@ -1,6 +1,7 @@
 $(document).ready(function(){
 /*Using document ready runs code only after the DOM is ready for js code to run more on that here: https://learn.jquery.com/using-jquery-core/document-ready */
-	function postData() {
+	
+    function postData() {
 		/*This function should create a post request using jquery. When posted it should:
 			1) Add tweets to the 'database'
             
