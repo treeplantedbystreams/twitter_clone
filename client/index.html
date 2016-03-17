@@ -4,31 +4,36 @@
 		<title>MyTweets</title>
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.min.css">
-	<script src= "js/main.js"></script>
     </head>
-	<body>
-		<!--ffgdformat html below-->
-		
-<div class="topBar"> 
-   <a id="log" href="#">Login</>
-</div>
-<br>
-<div class="Tweets">
-    <fieldset>
-        Tweets:<br>
-        <button onclick id="postData()">Post</button>
-        <input type="text" name="postData"><br>
+    
+	<body>  
+        <div class="container">
+        <span>User:</span>
+        <input class="tweeter" type="text">
+        </div>
         
-        </form>
-     </fieldset>
-</div>
-<br>
-<div class="tweets"> 
- </div>
-       
+        <div>
+        <h3>Time to Tweet!</h3>
+        <span></span>
+        
+        <button class="tweetButton">Tweet Here</button>
+        <input class="tweetBox" type="text">
+        </div>
+        
+        
+        <div class="row tweets">           
+        </div>
+        </div>
+        
+        <span class="tweetArmy">
+        <button class="lame">hit me!</button>
+        <input type="text" class="form-control" placeholder="Whats Happening">
+        
+            
+        
+        
 		<script src="components/jquery/dist/jquery.min.js"></script>
 		<script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
-		<!--linking code from main js-->
 		<script src="js/main.js"></script>
 	</body>
 </html>
